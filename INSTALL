@@ -2,7 +2,7 @@
 
 For installing or running secron,
 please make the install.sh file executable
-You can do that by opening terminal in this directory and issuing this command
+You can do that by opening terminal in this directory and issuing the below command
 Right click and select open in terminal
 enter
   chmod +x install.sh
