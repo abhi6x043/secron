@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo -e "Happy that you are here\nWelcome to Secron Project"
-echo -e "Written by abhi6x043\n"
+echo "Happy that you are here\nWelcome to Secron Project"
+echo "Written by abhi6x043\n"
 echo "Choose how you want to install"
 echo "Enter 1 to install the binary and run anywhere from your PC"
 echo "Enter 2 to run this as script from /home/$USER/secron.sh"
@@ -29,14 +29,14 @@ elif [ $input -eq 3 ]
 then
   chmod u+x src/secron.sh
   echo "You can now run binary or script by entering the following from this directory"
-  echo -e "\n bin/secron [OPTIONS] [COMMAND in quotes]   //To run the binary"
-  echo -e "\n sh src/secron.sh [OPTIONS] [COMMAND in quotes]  //To run the script"
-  echo -e "\nAlso please read the documentations available doc/"
-  echo -e "Ping me abhi6x043 abhijith.s4395@gmail.com\n"
+  echo "\n bin/secron [OPTIONS] [COMMAND in quotes]   //To run the binary"
+  echo "\n sh src/secron.sh [OPTIONS] [COMMAND in quotes]  //To run the script"
+  echo "\nAlso please read the documentations available doc/"
+  echo "Ping me abhi6x043 abhijith.s4395@gmail.com\n"
     
 else
   echo "Please enter a valid option among the following [1, 2, 3]"
   echo "Also please read the documentations available doc/"
-  echo -e "\nPing me abhi6x043 abhijith.s4395@gmail.com\n"
+  echo "\nPing me abhi6x043 abhijith.s4395@gmail.com\n"
   
 fi
