@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "Happy that you are here"
-cat README.md
+echo -e "Happy that you are here\nWelcome to Secron Project"
+echo -e "Written by abhi6x043\n"
 echo "Choose how you want to install"
 echo "Enter 1 to install the binary and run anywhere from your PC"
 echo "Enter 2 to run this as script from /home/$USER/secron.sh"
