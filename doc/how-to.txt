@@ -1,1 +1,37 @@
+Hi Welcome to Secron Project
 
+Now you may have installed secron in your machine
+To run a secron session is easy as it is.
+Just call the program and supply inputs. all in a single line
+
+>>> For running in a terminal:
+--------------------------------
+SYNTAX
+  
+  secron [time interval] ['command']
+  
+  where time interval should be a number in the range [5, 10, 15, 20, 30] all are calculated in seconds
+  and command should be within quotes or inverted commas
+  
+  eg:  secron 10 'ping -c4 www.google.com'
+  This will ping www.google.com with 4 packets of data in 10 seconds time interval
+  
+  eg:  secron 5 'echo HELO' >> hello.txt
+  This will append word HELLO to hello.txt in every 5 seconds
+  
+  Note: The above commands will be executed for 1 minute only
+  
+  
+>>> For Running in crontab:
+----------------------------  
+SYNTAX
+
+  * * * * * secron [time interal] ['command']
+  
+  eg: * * * * * secron 15 'ping -c4 192.168.1.1' >> connection_status.txt 2>&1
+  This will ping the particular ip address in every 1 seconds and saves the ouptuts and errors to connection_status.txt file
+  
+  eg: * * * * * secron 30 'sh path/to/script.sh' >> /dev/null 2>&1
+  This will execute a paricular script in twice a minute
+  
+  For more options refer, crontab man pages
