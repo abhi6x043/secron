@@ -17,24 +17,24 @@ if [ $sec -eq 30 ]
 then
 	for i in {1..2};
 	do
-		sleep $sec;
 		$job
+		sleep $sec;
 	done
 
 elif [ $sec -eq 20 ]
 then
 	for i in {1..3};
 	do
-		sleep $sec;
 		$job
+		sleep $sec;
 	done
 
 elif [ $sec -eq 15 ]
 then
 	for i in {1..4};
 	do
-		sleep $sec;
 		$job
+		sleep $sec;
 	done
 
 
@@ -42,16 +42,16 @@ elif [ $sec -eq 10 ]
 then
 	for i in {1..6};
 	do
-		sleep $sec;
 		$job
+		sleep $sec;
 	done
 
 elif [ $sec -eq 5 ]
 then
 	for i in {1..12};
 	do
-		sleep $sec;
 		$job
+		sleep $sec;
 	done
 
 else
